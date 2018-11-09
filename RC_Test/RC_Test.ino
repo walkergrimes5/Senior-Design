@@ -18,7 +18,7 @@ void setup() {
 
 void loop() {
   int CH1 = pulseIn(ch1,HIGH);
-  int CH2 = pulseIn(ch2,HIGH);
+  int CH2 = pulseIn(ch2   ,HIGH);
   int CH3 = pulseIn(ch3,HIGH);
   int CH4 = pulseIn(ch4,HIGH);
   int CH5 = pulseIn(ch5,HIGH);
